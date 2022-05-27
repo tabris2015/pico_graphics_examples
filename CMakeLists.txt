@@ -17,7 +17,7 @@ pico_sdk_init()
 # Add your source files
 add_executable(${NAME}
         src/main.cpp # <-- Add source files here!
-        )
+        game_controller/game_controller.h game_controller/object.h)
 
 # Include required libraries
 # This assumes `pimoroni-pico` is stored alongside your project

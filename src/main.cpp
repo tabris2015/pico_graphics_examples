@@ -26,7 +26,7 @@ int main() {
 //    gpio_set_dir(RESET_PIN, GPIO_OUT);
     display.init();
     display.set_backlight(127);
-    Rect box(15, 15, WIDTH - 30, HEIGHT - 30);
+    Rect box(0, 0, WIDTH, HEIGHT);
     Point p(25, 25);
     display.set_pen(255, 255, 0);
     display.rectangle(box);
